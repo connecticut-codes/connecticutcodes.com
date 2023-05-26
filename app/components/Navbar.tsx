@@ -10,12 +10,16 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+const closeMenu =()=>{
+  setIsOpen(false)
+}
+
   return (
     <nav className="sticky top-0  bg-gray-800">
       <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center">
+          <div className="flex-shrink-0 flex items-center" onClick={closeMenu}>
             {/* Replace 'Logo' with your actual logo */}
             <Link href='/' className="text-white font-bold text-lg">Logo</Link>
           </div>
