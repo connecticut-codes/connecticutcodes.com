@@ -4,7 +4,7 @@ export default function Home() {
       <div className="container mx-auto py-24 px-4 sm:px-6 lg:px-8 h-screen">
         <div className="md:flex md:items-center md:justify-between h-full">
           <div className="text-center md:text-left md:w-1/2">
-            <h1 className="text-8xl font-bold text-white mb-4">
+            <h1 className="text-xl sm:text-4xl md:text-8xl font-bold text-white mb-4">
               Connecticut Codes
             </h1>
             <p className="text-lg text-gray-200 mb-6">
