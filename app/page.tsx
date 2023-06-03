@@ -31,9 +31,9 @@ export default function Home() {
       </div>
     </div>
     <section className='max-w-screen-lg my-8 flex flex-wrap justify-center gap-2 m-auto'>
-    <MainCard cardTitle={'Community'} cardContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in, soluta  voluptatibus sit error obcaecati, nihil perferendis, alias deserunt quos voluptatem.'} cardImg={CommunityImg}/>
-    <MainCard cardTitle={'Resources'} cardContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in, soluta  voluptatibus sit error obcaecati, nihil perferendis, alias deserunt quos voluptatem.'}cardImg={CommunityImg}/>
-    <MainCard cardTitle={'community'} cardContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in, soluta  voluptatibus sit error obcaecati, nihil perferendis, alias deserunt quos voluptatem.'}cardImg={CommunityImg}/>
+    <MainCard cardTitle={'Community'} cardContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in, soluta  voluptatibus sit error obcaecati, nihil perferendis, '} cardImg={CommunityImg}/>
+    <MainCard cardTitle={'Resources'} cardContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in, soluta  voluptatibus sit error obcaecati, nihil perferendis, '}cardImg={CommunityImg}/>
+    <MainCard cardTitle={'community'} cardContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in, soluta  voluptatibus sit error obcaecati, nihil perferendis, '}cardImg={CommunityImg}/>
     </section>
     </>
 
