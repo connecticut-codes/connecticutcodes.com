@@ -1,5 +1,9 @@
+import MainCard from './components/MainCard'
+import CommunityImg from '../public/assets/community-icon.png'
 export default function Home() {
   return (
+    <>
+    
     <div className="bg-gradient-to-r from-blue-500 to-purple-500">
       <div className="container mx-auto py-24 px-4 sm:px-6 lg:px-8 h-screen">
         <div className="md:flex md:items-center md:justify-between h-full">
@@ -26,5 +30,13 @@ export default function Home() {
         </div>
       </div>
     </div>
+    <section className='max-w-screen-lg my-8 flex flex-wrap justify-center gap-2 m-auto'>
+    <MainCard cardTitle={'Community'} cardContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in, soluta  voluptatibus sit error obcaecati, nihil perferendis, '} cardImg={CommunityImg}/>
+    <MainCard cardTitle={'Resources'} cardContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in, soluta  voluptatibus sit error obcaecati, nihil perferendis, '}cardImg={CommunityImg}/>
+    <MainCard cardTitle={'community'} cardContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in, soluta  voluptatibus sit error obcaecati, nihil perferendis, '}cardImg={CommunityImg}/>
+    </section>
+    </>
+
   );
+  
 }
