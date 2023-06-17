@@ -2,6 +2,7 @@ import MainCard from "./components/MainCard";
 import CommunityImg from "../public/assets/community-icon.png";
 import heroImage from "./assets/images/hero.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -18,9 +19,9 @@ export default function Home() {
                 We have regular in person and virtual events in order to
                 collaborate, network, and code!
               </p>
-              <button className="bg-white text-blue-500 font-semibold py-2 px-4 rounded-full shadow-md hover:bg-blue-600 hover:text-white transition duration-300">
+              <Link href="https://www.meetup.com/central-connecticut-coders/" className="bg-white text-blue-500 font-semibold py-2 px-4 rounded-full shadow-md hover:bg-blue-600 hover:text-white transition duration-300">
                 Join Us
-              </button>
+              </Link>
             </div>
             <div className="mt-6">
               <Image src={heroImage} alt="connecticut codes hero" />
