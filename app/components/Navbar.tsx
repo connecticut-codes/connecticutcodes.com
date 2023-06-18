@@ -2,7 +2,8 @@
 import Link from 'next/link';
   
 import React, { useState } from 'react';
-
+import Logo from '../assets/images/CT Codes.png'
+import Image from 'next/image';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -21,7 +22,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center" >
             {/* Replace 'Logo' with your actual logo */}
-            <Link href='/' className="text-white font-bold text-lg">Logo</Link>
+            <Link href='/' className="text-white font-bold text-lg"><Image alt='site logo' width={125} height={125} src={Logo}/></Link>
           </div>
 
           {/* Menu button for mobile */}
